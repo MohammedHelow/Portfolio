@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammed W. Helow - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <span class="nav-logo">Mohammed W. Helow</span>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links">
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </nav>
+  <button id="scrollTopBtn" title="Go to top">↑</button>
+  <header>
+    <h1>Mohammed W. Helow</h1>
+    <p class="subtitle">Computer Science Student</p>
+    <div class="contact-info">
+      <span>📧 <a href="mailto:hamadahelow@hotmail.com">hamadahelow@hotmail.com</a></span>
+      <span>📞 <a href="tel:4255722712">425-572-2712</a></span>
+      <span>📍 Greater Seattle Area, WA</span>
+      <span>🔗 <a href="https://linkedin.com/in/mohammed-helow" target="_blank">LinkedIn</a></span>
+    </div>
+    <a class="resume-link" href="Mohammed_Helow_Resume.pdf" download>Download Resume (PDF)</a>
+  </header>
+  <main>
+    <section class="profile section-animate" id="profile">
+      <h2>Profile</h2>
+      <p>Highly motivated and detail-oriented Computer Science student with a strong academic foundation in programming, algorithms, and software development. Proficient in Python, Java, and C++, with a proven ability to design, implement, and optimize efficient solutions for complex problems.</p>
+    </section>
+    <section class="skills section-animate" id="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div>
+          <h3>Programming Languages</h3>
+          <div class="skill-bar"><span>Python</span><div class="bar"><div class="progress" data-skill="90"></div></div></div>
+          <div class="skill-bar"><span>Java</span><div class="bar"><div class="progress" data-skill="85"></div></div></div>
+          <div class="skill-bar"><span>C++</span><div class="bar"><div class="progress" data-skill="80"></div></div></div>
+          <div class="skill-bar"><span>C#</span><div class="bar"><div class="progress" data-skill="75"></div></div></div>
+          <div class="skill-bar"><span>R</span><div class="bar"><div class="progress" data-skill="70"></div></div></div>
+          <div class="skill-bar"><span>SQL</span><div class="bar"><div class="progress" data-skill="80"></div></div></div>
+          <div class="skill-bar"><span>HTML/CSS</span><div class="bar"><div class="progress" data-skill="85"></div></div></div>
+          <div class="skill-bar"><span>JavaScript</span><div class="bar"><div class="progress" data-skill="75"></div></div></div>
+        </div>
+        <div>
+          <h3>Tools & Frameworks</h3>
+          <ul>
+            <li>Git</li>
+            <li>AWS (IAM, Lambda, S3, EventBridge, DynamoDB, CloudWatch)</li>
+            <li>VS Code</li>
+            <li>IntelliJ</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="education section-animate" id="education">
+      <h2>Education</h2>
+      <div>
+        <h3>B.S. Computer Science with an Emphasis in Data Science, <span>Bellevue College</span></h3>
+        <p>09/2021 – 06/2025</p>
+        <p>Data Structures, Data Science, Software Engineering, Cloud Computing, Database Systems, Machine Learning</p>
+      </div>
+    </section>
+    <section class="projects section-animate" id="projects">
+      <h2>Projects</h2>
+      <div class="project-gallery">
+        <div class="project-card">
+          <div class="card-header">
+            <h3>Malware Detection using Machine Learning and Deep Learning</h3>
+            <button class="expand-btn" aria-label="Expand project">+</button>
+          </div>
+          <div class="card-content">
+            <p><em>Data Science Capstone Project – Bellevue College</em></p>
+            <ul>
+              <li>Developed and implemented multiple models (Random Forest, Logistic Regression, CNN) to predict malware infections using Microsoft Malware Prediction dataset.</li>
+              <li>Preprocessed high-dimensional data, handled missing values, and applied PCA for dimensionality reduction.</li>
+              <li>Engineered features based on domain knowledge, reduced multicollinearity using correlation heatmaps.</li>
+              <li>Visualized model performance and comparison metrics (accuracy, precision, recall) using Matplotlib and Seaborn.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="card-header">
+            <h3>Graphing Calculator Application</h3>
+            <button class="expand-btn" aria-label="Expand project">+</button>
+          </div>
+          <div class="card-content">
+            <ul>
+              <li>Developed a graphing calculator in C# using the WPF framework and ScottPlot library, enabling users to plot mathematical functions and perform advanced calculations.</li>
+              <li>Key features include customizable graph rendering, interactive zooming and panning, and advanced mathematical operations such as integrals, derivatives, and intercepts calculated using the Newton-Raphson method.</li>
+              <li>Implemented dynamic input validation with Python integration and regular expressions to ensure accurate parsing and error handling.</li>
+              <li>Designed a responsive and adaptable UI with hover effects and real-time updates.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="card-header">
+            <h3>Hand-wired Keyboard</h3>
+            <button class="expand-btn" aria-label="Expand project">+</button>
+          </div>
+          <div class="card-content">
+            <ul>
+              <li>Designed and constructed a fully functional, hand-wired 3D-printed mechanical keyboard.</li>
+              <li>This project helped me understand the hardware and software aspects of keyboard design, circuitry, and human-computer interaction.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="card-header">
+            <h3>Traffic Violation DMV System</h3>
+            <button class="expand-btn" aria-label="Expand project">+</button>
+          </div>
+          <div class="card-content">
+            <ul>
+              <li>A system that helps cities use cameras (installed at road intersections) to catch and bill drivers who commit traffic violations at traffic lights, then sends those traffic violations to the registered owner's email.</li>
+              <li>Created a solution to a problem that requires the use of a Machine Learning service capable of extracting text embedded in pictures. The solution combines many services on the AWS platform covered during the course: S3, Lambda, Queues, SNS, EventBridge, and Rekognition.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="experience section-animate" id="experience">
+      <h2>Professional Experience</h2>
+      <div class="job">
+        <h3>Order Picker, <span>Tosco Business Center</span></h3>
+        <p>02/2025 – Present | Lynnwood, WA</p>
+        <ul>
+          <li>Collaborated with team members to ensure timely and accurate order fulfillment, demonstrating attention to detail and communication skills.</li>
+          <li>Maintained speed and accuracy in fast-paced conditions while following strict safety protocols.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Warehouse Assistant Manager, <span>Amazon</span></h3>
+        <p>12/2021 – 02/2025 | Kirkland, WA</p>
+        <ul>
+          <li>Leveraged Amazon's proprietary inventory management systems, gaining hands-on experience with large-scale data processing and automation that enhanced my understanding of software systems in real-world operations.</li>
+          <li>Utilized data analytics tools to track and optimize warehouse performance, sharpening my ability to work with large datasets and improve system efficiency, a skill directly applicable to software engineering tasks such as database management and algorithm optimization.</li>
+          <li>Developed a strong attention to detail and troubleshooting abilities while identifying and resolving issues in a fast-paced environment.</li>
+        </ul>
+      </div>
+    </section>
+    <section class="contact section-animate" id="contact">
+      <h2>Contact</h2>
+      <form id="contactForm" novalidate>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+        <div id="formMsg"></div>
+      </form>
+      <div class="contact-info-alt">
+        <p>Email: <a href="mailto:hamadahelow@hotmail.com">hamadahelow@hotmail.com</a></p>
+        <p>Phone: <a href="tel:4255722712">425-572-2712</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/mohammed-helow" target="_blank">linkedin.com/in/mohammed-helow</a></p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Mohammed W. Helow</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html> 
